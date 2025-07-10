@@ -5,18 +5,63 @@ body {
   background-color: #f6edda;
   }
       
-      
+a {
+text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
       
 .text-overlay {
   display: flex;
   position: absolute;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  bottom: 50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
-  opacity: 0.50;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255, .3);
+  color: #756c69;
+  height: 100px;
+  padding: 20px 10px 0px 10px;
+  border-radius: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-gap: 10px;
+  height: auto;
+  opacity: 1;
+  z-index: 1;
+}
+    
+
+
+.scenario{
+  background-image: url('images/outside1.jpg'); /* Replace 'your-image.jpg' with the actual path to your image */
+  background-size: cover; /* This property ensures the background image covers the entire viewport */
+  opacity: 0.6;
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-color: black;
+  height: 100%; 
+  min-height: 100vh;
+  text-align: center;
+}
+    
+    
+.scenario-text{
+background-color: black;
+opacity: 0.8;
+padding: 10px;
+}
+  
+    
+.scenario-image {
+background: rgba(0,0,0,.8);
 }

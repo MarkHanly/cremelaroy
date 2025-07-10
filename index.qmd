@@ -7,8 +7,8 @@ title: ""
 <img src='images/outside1.jpg' style = "width:100%; height: auto;">
 
     <div class="text-overlay">
-      <a href="market.html" 
-      <p><span style="font-family: 'Papyrus'; text-decoration:none; color: #756c69;">But mum, how long do we have to stay?</span></p>
+      <a href="welcome.html" 
+      <p><span style="font-family: 'Papyrus';">But mum, how long do we have to stay?</span></p>
       </a>
     </div>
 
