@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "cremelaroy"
+
+format:
+  html:
+    theme: 
+      - sketchy
+      - custom.scss
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    licence: "CC BY-NC"
+
+page-footer:
+  left: "[Go Home](index.html)"
+  right: "[About](about.html)"
+
